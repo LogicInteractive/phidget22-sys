@@ -1,0 +1,11 @@
+[package]
+name = "phidget22-sys"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.59"
+clang-sys = "1.3"
